@@ -1,0 +1,10 @@
+/* Esta es mi hoja de estilos :D */
+main {
+    padding: 8rem;
+    border: 10px rgb(99, 150, 99) solid;
+    margin: 5rem;
+}
+img {
+    object-fit: cover;
+    width: 100%;
+}
