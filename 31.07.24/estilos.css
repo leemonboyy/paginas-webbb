@@ -1,9 +1,72 @@
-/* Esta es mi hoja de estilos :D */
+@import url('https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* Esta es mi hoja de estilos :D 
 main {
     padding: 8rem;
     border: 10px rgb(99, 150, 99) solid;
     margin: 5rem;
+}*/
+
+/* ejemplos de class y id 
+
+.parrafo {
+    line-height: 1.5;
+    color: blueviolet;
+
 }
+*/
+
+main {
+    grid-column-start: 1;
+    grid-column-end: 3;
+   
+}
+
+aside {
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+footer {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+/* css reticula */
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 1rem;
+}
+/*estilos tipograficos*/
+h1 {
+    font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2rem;
+}
+p {
+    font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+  line-height: 1.8;
+  padding-bottom: 1rem;
+}
+header li {
+    list-style: none;
+    display: inline-block;
+    padding: 0% 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+header {
+    background-color: darkslategrey;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+/* Estilos de imagen */
 img {
     object-fit: cover;
     width: 100%;
